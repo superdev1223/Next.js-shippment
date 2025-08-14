@@ -39,7 +39,7 @@ export default function Home() {
     }));
   };
 
-  const openDetailsModal = (item :) => {
+  const openDetailsModal = (item : any) => {
     setSelectedItem(item);
     setShowDetailsModal(true);
   };
